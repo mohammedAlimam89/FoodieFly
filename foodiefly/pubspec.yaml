@@ -1,0 +1,30 @@
+name: foodiefly
+description: "FoodieFly - Premium Food Delivery App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  collection: ^1.19.1
+  cupertino_icons: ^1.0.9
+  flutter:
+    sdk: flutter
+  flutter_credit_card: ^4.1.0
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/burger.png
+    - assets/images/salad.png
+    - assets/images/pizza.png
+    - assets/images/sushi.png
+    - assets/images/drink.png
